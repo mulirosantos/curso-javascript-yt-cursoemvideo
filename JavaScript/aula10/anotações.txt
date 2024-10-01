@@ -1,0 +1,15 @@
+//Eventos DOM
+#Movimento Mouse
+    mouseenter
+    mousermove
+    mousedown
+    mouseup
+    click
+    mouseout
+
+//Funções
+
+#Bloco
+    function ação(param){
+
+    } - Código só vai ocorrer quando o evento ocorrer

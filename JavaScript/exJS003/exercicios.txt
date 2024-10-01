@@ -1,0 +1,14 @@
+${EXERCÍCIOS AULA 16/17}
+
+//EX001 - Analisador de Números
+#Digitar um número de 1 a 100
+#Botão Adicionar -> chamada para função adicionar()
+#Função adicionar a uma lista(select)
+#Não adicionar valores repetidos
+#Botão finalizar -> função finalizar()
+#Apresentar quantos valores foram inseridos;
+Qual o maior valor;
+Qual o menor valor;
+Soma de todos os valores;
+Média de todos os valores;
+#Validar os valores inseridos

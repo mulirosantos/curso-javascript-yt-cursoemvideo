@@ -1,0 +1,26 @@
+//INTRODUÇÃO AO DOM
+#Document Object Model
+Arvore DOM
+    Window
+        Location
+        Document
+            HTML
+                head
+                    meta
+                    title
+                    ect..
+                body
+                    h1-hx
+                    paragraph
+                        strong
+                    div
+
+        History
+
+
+Selecionando
+    por Marca - getElementsByTagName()
+    por ID - getElementByID
+    por Nome - getElementsByName
+    por Classe - getElementsByClassName()
+    por Seletor - querySelector() / querySelectorAll()

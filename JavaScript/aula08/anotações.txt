@@ -1,0 +1,44 @@
+// Operadores (pt2)
+
+Relacionais
+Lógicos
+Ternário
+
+// Relacionais
+>
+<
+>=
+<=
+==
+!=
+
+// Identidade (Relacionais)
+/* 5 == 5 --> True
+5 == '5' --> True (não testa o tipo) */
+5 === '5' --> False 
+5 === 5 --> True
+=== (identico)
+!== (desigual restrito)
+
+// Lógicos
+! --> negação (operador unário) 
+&& --> conjunção (operador binário)
+|| --> disjunção (operador binário)
+
+True && True --> True
+True && False --> False
+False && True --> False
+False && False --> False
+
+True || True --> True
+True || False --> True
+False || True --> True
+False || False --> False
+
+// Precedencia
+-------------------------->
+(Aritméticos),(Relacionais),(Lógicos{! > && > ||})
+
+// Ternário
+? :
+teste ? true : false

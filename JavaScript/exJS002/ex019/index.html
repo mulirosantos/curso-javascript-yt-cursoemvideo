@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador Automático</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <header id="titulo">
+        <h1>Contador</h1>
+    </header>
+    <section class="conteudo">
+        <div>
+            <p>Digite o número inicial:
+            <input type="number" name="inicio" id="start">
+            </p>
+            <p>
+                Digite o número final:
+                <input type="number" name="final" id="end">
+            </p>
+            <p>
+                Digite o coeficiente:
+                <input type="number" name="passo" id="step">
+            </p>
+            <input type="button" value="Calcular" id="verify" onclick="calculate()">
+        </div>
+        <div id="result">
+            
+            <p id="res"></p>
+
+
+        </div>
+
+    </section>
+    <footer id="rodape">
+
+        <p>&copy; Murilo Santos</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

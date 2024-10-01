@@ -1,0 +1,18 @@
+// variaveis 
+var 
+// identificadores
+começam com letras, $ e _
+
+//Strings
+" txt "
+' txt '
+` txt `
+// Data Types
+Number - 1,2,3 / 5.6, 6.7 etc
+String - "txt"
+Boolean - True / False
+Null
+Object
+{...}
+
+typeof ... // mostra o tipo de dado da variavel

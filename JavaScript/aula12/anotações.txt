@@ -1,0 +1,33 @@
+// Condições JS pt.02
+
+#Condições Aninhadas
+    if(){
+
+    }else if(){
+
+    }
+
+#Condições Múltiplas
+<!-- break é obrigatório em todos os Cases -->
+    switch(expressão){
+        case valor1:
+
+        break
+        case valor2:
+
+        break
+        case valor3:
+
+        break
+        case valor4:  
+
+        break
+        case valor5:
+
+        break
+        case valor6:
+
+        break
+        default:
+
+    }

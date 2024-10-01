@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <header id="titulo">
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section class="conteudo">
+        <div>
+            <p>Ano de Nascimento
+             <input type="text" name="Ano de nascimento" id="ano">
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" name="sexo" id="masc">
+                <label for="masc">Masculino</label>
+                <input type="radio" name="sexo" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <input type="button" value="Verificar" onclick="verificar()">
+
+        </div>
+        <div id="resultado">
+            <p>Preencha os dados acima para ver o resultado!</p>
+
+
+        </div>
+
+    </section>
+    <footer id="rodape">
+
+        <p>&copy; Murilo Santos</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

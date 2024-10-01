@@ -1,0 +1,40 @@
+<!-- Exercício 009 em HTML-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checando Nacionalidade</title>
+</head>
+<body>
+    <h1>Reconhecendo Nacionalidade</h1>
+    Nacionalidade <input type="text" name="nacionalidad" id="nat">
+    <input type="button" value="Veririfcar" onclick="analisar()">
+    <div id="res">
+
+
+    </div>
+    <script>
+        function analisar(){
+            var nat = document.getElementById("nat")
+            var res = document.querySelector("div#res")
+            var pais = nat.value
+            res.innerHTML = `${pais} é o país que você nasceu <br>`
+            if (pais == "Brasil"){
+                res.innerHTML += `Você é Brasileiro`
+
+            } else{
+                res.innerHTML += "Você é estrangeiro"
+            }
+
+
+
+        }
+
+
+
+    </script>
+
+
+</body>
+</html>

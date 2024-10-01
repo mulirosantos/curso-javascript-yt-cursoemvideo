@@ -1,0 +1,13 @@
+//Repetições JS Part.02
+
+#Estrutura de repetição com variável de controle
+
+Inicialização
+    Teste Lógico
+        Incremento
+Encerrameto
+
+for(inicio; teste;incr){
+    [BLOCO]
+}
+

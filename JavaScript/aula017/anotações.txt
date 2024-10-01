@@ -1,0 +1,18 @@
+${PRÓXIMOS PASSOS}
+
+#Estudar Functions
+#Estudar objetos
+#Modularização
+#RegEx
+#JSON
+#AJAX
+#NodeJS
+
+
+
+//Fundamentos de objetos
+/* ------------- array ------------ */
+let num = [   ] //array
+/* ------------- objeto ------------ */
+let amig = {chave1:'valor1',chave2:'valor2,chave3:'valor3',açao(param){}}//objeto
+            [atributo: valor]

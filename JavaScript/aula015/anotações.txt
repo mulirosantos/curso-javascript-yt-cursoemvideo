@@ -1,0 +1,30 @@
+${Variáveis Compostas}
+
+#Variáveis simples só armazenam 1 único valor por vez
+    var 1 = 000
+    var 2 = 000
+    var 3 = 000
+    var 4 = 000
+    var 5 = 000
+#Variáveis compostas armazenam vários valores em uma mesma estrutura
+    var a  = [0, 1, 2, 3, 4, 5, 6]
+    |->array/vetor     |-> indices
+Array
+    Elemento
+        indices chave / conteúdo valor
+
+    let num = [5, 8, 4]
+               0 - 1 -2 
+Adicionar valores ao array
+num[3] = value && num.push(value)
+
+Contar o "comprimento" do array
+num.length
+
+Colocar em ordem crescente
+num.sort()
+
+
+
+Buscar valores
+num.indexOf()

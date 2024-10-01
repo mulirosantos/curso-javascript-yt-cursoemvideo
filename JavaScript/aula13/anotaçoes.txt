@@ -1,0 +1,19 @@
+//Repetições JS
+
+#Estruturas de repetição com teste lógico no inicio:
+Enquanto uma condição for True, o código será executado
+while (condição){
+    [BLOCO]
+}
+Exemp.:
+    function comerPizza(){
+        while(temFatia()){
+            comerFatia()
+        }
+
+
+    }
+#Estruturas de repetição com teste lógico no final:
+do{
+    [BLOCO]
+}while(condição)

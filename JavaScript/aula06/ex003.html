@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex001 javascript</title>
+
+    <!-- Css -->
+    <style>
+        body {
+            background-color: rgb(27, 117, 190);
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            margin:0;
+        }
+        div{
+            background-color: rgb(22, 22, 107);
+            padding: 10px;
+            
+        }
+    </style>
+
+</head>
+<body>
+
+    <div>
+    <h1> Hello, World! </h1>
+    <p>Lorem ipsum dolor sit amet, 
+        consectetur adipisicing elit. Minima, 
+        totam eius illum sequi ullam temporibus 
+        atque sapiente distinctio harum! Inventore 
+        eaque aliquam vel rem, nemo natus debitis 
+        nam tenetur esse.</p>
+    </div>
+
+<!-- Java Script -->
+    <script>
+        var n1 = Number.parseFloat(window.prompt('Digite um número: ')) //prompt recebe str
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert(`A Soma ente ${n1} e ${n2} é igual a ${s} `) // + para adição ou para concatenação
+        // + para adição ( number + number )
+        // + para concatenaçõa ( str + str )
+        /* String -> Number 
+        Number.parseInt(n) - Num inteiros
+        Number.parseFloat(n) - Num com casas decimais 
+        modo simplificado - Number(n)
+
+        Number -> String
+        String(n) 
+        n.toString()
+        */
+    </script>
+
+</body>
+</html>
